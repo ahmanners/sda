@@ -16,6 +16,6 @@ program 	define usesda, rclass
 	
 	else {
 	di "Loading dataset..." 
-	use "https://github.com/ahmanners/sda/raw/master/data/`namelist'.dta", `clear'
+	use "https://github.com/ahmanners/sda/raw/main/data/`namelist'.dta", `clear'
 	}
 end
